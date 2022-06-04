@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /** 
  * main - checks the random number.
  *
- * Description: the main funtion checks the random number * and output if sign or unsign.
+ * Description: the main funtion checks the random
+ *  number and output if sign or unsign.
  * Return: null
  */
 int main(void)
@@ -20,6 +20,5 @@ int main(void)
 		printf("%d is zero\n", n);
 	else 
 		printf("%d is negative\n", n);
-
 	return (0);
 }
