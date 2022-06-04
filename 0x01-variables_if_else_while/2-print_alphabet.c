@@ -12,13 +12,12 @@
 int main(void)
 {
 	int i;
-	char aph[27] = {'a', 'B', 'C', 'D', 'E',
+	char aph[] = {'a', 'B', 'C', 'D', 'E',
 		'F', 'G', 'H', 'I', 'J', 'K',
 		'L', 'M', 'N', 'O', 'P', 'Q',
 		'R', 'S', 'T', 'U', 'V',
-		'W', 'X', 'Y', 'Z', '\0'};
+		'W', 'X', 'Y', 'Z', '\0','\n'};
 	int p = strlen(aph);
-	
 	for (i = 0; i < p; i++)
 		putchar(tolower(aph[i]));
 	return (0);
