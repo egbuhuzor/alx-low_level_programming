@@ -12,10 +12,10 @@
 int main(void)
 {
 	int i;
-	char aph[] = {'a', 'B', 'C', 'D', 'E', 
-		'F', 'G', 'H', 'I', 'J', 'K', 
-		'L', 'M', 'N', 'O', 'P', 'Q', 
-		'R', 'S', 'T', 'U', 'V', 
+	char aph[27] = {'a', 'B', 'C', 'D', 'E',
+		'F', 'G', 'H', 'I', 'J', 'K',
+		'L', 'M', 'N', 'O', 'P', 'Q',
+		'R', 'S', 'T', 'U', 'V',
 		'W', 'X', 'Y', 'Z', '\0'};
 	int p = strlen(aph);
 	
