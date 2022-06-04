@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* the main funtion checks the random number and 
+/** main - the main funtion checks the random number and 
  * output if sign or unsign  
- * */
+ */
 int main(void)
 {
 	int n;
