@@ -3,9 +3,9 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * main - prints the single digit numbers 
+ * main - prints the single digit numbers
  *
- * Description: this function prints single 
+ * Description: this function prints single
  * digit numbers of base ten
  * Return: null
  */
