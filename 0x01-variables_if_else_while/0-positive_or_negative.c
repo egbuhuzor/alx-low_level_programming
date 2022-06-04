@@ -2,8 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/** main - the main funtion checks the random number and 
- * output if sign or unsign  
+/** 
+ * main - checks the random number.
+ *
+ * description: the main funtion checks the random number * and output if sign or unsign.
  */
 int main(void)
 {
