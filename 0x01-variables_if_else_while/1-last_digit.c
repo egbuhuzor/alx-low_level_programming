@@ -9,7 +9,8 @@
  * Return: null
  */
 int main(void)
-{	
+{
+	
 	int n;
 	int p;
 	
