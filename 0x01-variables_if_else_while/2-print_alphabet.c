@@ -16,8 +16,9 @@ int main(void)
 		'F', 'G', 'H', 'I', 'J', 'K',
 		'L', 'M', 'N', 'O', 'P', 'Q',
 		'R', 'S', 'T', 'U', 'V',
-		'W', 'X', 'Y', 'Z', '\0','\n'};
+		'W', 'X', 'Y', 'Z', '\0', '\n'};
 	int p = strlen(aph);
+
 	for (i = 0; i < p; i++)
 		putchar(tolower(aph[i]));
 	return (0);
