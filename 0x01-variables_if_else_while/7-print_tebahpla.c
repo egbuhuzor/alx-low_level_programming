@@ -4,9 +4,10 @@
 #include <string.h>
 /**
  * main - prints the alphabet in lowercase
+ * reverse
  *
  * Description: this function prints out the
- * alphabet in lowercase
+ * alphabet in reverse lowercase order
  * Return: null
  */
 int main(void)
@@ -16,11 +17,12 @@ int main(void)
 		'F', 'G', 'H', 'I', 'J', 'K',
 		'L', 'M', 'N', 'O', 'P', 'Q',
 		'R', 'S', 'T', 'U', 'V',
-		'W', 'X', 'Y', 'Z', '\n', '\0'};
+		'W', 'X', 'Y', 'Z', '\0'};
 	int p = strlen(aph);
 
-	for (i = 0; i < p; i++)
+	for (i = p - 1; i > -1; i--)
 		putchar(tolower(aph[i]));
+	putchar('\n');
 	return (0);
 }
 
