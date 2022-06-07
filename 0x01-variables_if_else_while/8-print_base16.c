@@ -18,7 +18,6 @@ int main(void)
 		putchar(i);
 	for (p = 'a'; p < 'g'; p++)
 		putchar(p);
-	
 	putchar('\n');
 	return (0);
 }
